@@ -1,0 +1,49 @@
+# --- Documentos (artigos e planos NÃO vão para o repositório) ---
+*.pdf
+*.epub
+papers/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+.env
+
+# --- C++ / CMake ---
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# --- Editores e sistema ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --- Dados gerados ---
+# Os quadros da aranha (~5 MB cada) são regenerados com `python src/aranha.py`.
+# gt.json e trajetoria.json do galho continuam no repositório.
+src/nuvem_cilindro/data/galho/quadro_*
