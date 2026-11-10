@@ -1,5 +1,0 @@
-# Python 3.10 a 3.12 (o pybullet não compila no 3.13)
-pybullet>=3.2
-numpy
-open3d>=0.18
-matplotlib

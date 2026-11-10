@@ -44,6 +44,11 @@ compile_commands.json
 Thumbs.db
 
 # --- Dados gerados ---
-# Os quadros da aranha (~5 MB cada) são regenerados com `python src/aranha.py`.
-# gt.json e trajetoria.json do galho continuam no repositório.
-src/nuvem_cilindro/data/galho/quadro_*
+# Ficam no repositório só os dados pequenos de referência:
+# data/gt.json, data/nuvem.ply, data/rotulos.npy, data/camera_vista.png,
+# data/galho/gt.json e data/galho/trajetoria.json.
+# O resto é regenerado pelos scripts (ver README).
+data/origens.npy
+data/galho/quadro_*
+data/teste/
+data/resultados/

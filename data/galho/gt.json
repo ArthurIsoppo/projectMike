@@ -1,8 +1,19 @@
 {
   "unidade": "m",
-  "id_piso": 0,
-  "cilindros": [
+  "primitivas": [
     {
+      "tipo": "plano",
+      "nome": "piso",
+      "id_pybullet": 0,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "d": 0.0
+    },
+    {
+      "tipo": "cilindro",
       "nome": "galho",
       "id_pybullet": 1,
       "raio": 0.1,

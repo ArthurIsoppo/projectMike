@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "percepcao"
+version = "0.1.0"
+description = "Percepção para o robô que anda sobre tubulações: nuvens de pontos simuladas no PyBullet, filtros, normais e (depois) ajuste de primitivas, sempre comparados com o ground truth."
+readme = "README.md"
+# o pybullet não compila no Python 3.13
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "pybullet>=3.2",
+    "numpy",
+    "open3d>=0.18",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["percepcao*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
