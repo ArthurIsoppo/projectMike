@@ -18,6 +18,7 @@ e comparamos com o ground truth da simulação.
 
 ## Regra principal
 
-Este é um projeto de aprendizado. **Explique e revise o código; não escreva a
-solução por nós.** Aponte erros, explique conceitos, sugira caminhos e mostre
-trechos curtos de exemplo quando ajudar, mas a implementação é nossa.
+Este é um projeto de aprendizado. **Pode implementar quando a gente pedir;
+explique o que fez em português didático e pare nas etapas combinadas.**
+Sem pedido explícito, explique e revise: aponte erros, explique conceitos e
+sugira caminhos.
